@@ -12,13 +12,8 @@ body {
 }
 
 
-/* Content */
-/*s.content {
-	padding: 5em 0 3em;
-	-webkit-touch-callout: none;
-	-ms-user-select: none;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	user-select: none;
+.Animatie{
+	margin-top:20em;
+	display:flex;
+	justify-content:center;
 }
-

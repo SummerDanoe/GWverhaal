@@ -34,17 +34,18 @@
 	position: relative;
 	align-items: center;
 	justify-content: center;
-	width: 65%;
+	height:100%;
+	width: 80%;
 	padding: 0 1em;
 	opacity: 0;
-	font-size: 0.85em;
+	font-size: 0.8em;
 }
 
 .tooltip__shape,
 .tooltip__deco {
 	position: absolute;
-	width: 100%;
-	height: 100%;
+	height:auto;
+	width:auto;
 	top: 0;
 	left: 0;
 }

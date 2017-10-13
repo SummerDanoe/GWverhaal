@@ -11,9 +11,21 @@ body {
 	background: #1d1f1e;
 }
 
-
-.Animatie{
-	margin-top:20em;
+h1{
 	display:flex;
 	justify-content:center;
+}
+img{
+
+	width:100vw;
+}
+
+main{
+	margin-top:15em;
+}
+section{
+	display:flex;
+	justify-content: center;
+	padding:2em;
+
 }

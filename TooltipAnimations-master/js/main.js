@@ -71,74 +71,10 @@
 				}
 			}
 		},
-		smaug: {
-			in: {
-				base: {
-					duration: 200,
-					easing: 'easeOutQuad',
-					rotate: [35,0],
-					opacity: {
-						value: 1,
-						easing: 'linear',
-						duration: 100
-					}
-				},
-				content: {
-					duration: 1000,
-					delay: 50,
-					easing: 'easeOutElastic',
-					translateX: [50,0],
-					rotate: [10, 0],
-					opacity: {
-						value: 1,
-						easing: 'linear',
-						duration: 100
-					}
-				},
-				trigger: {
-					translateX: [
-						{value: '-30%', duration: 130, easing: 'easeInQuad'},
-						{value: ['30%','0%'], duration: 900, easing: 'easeOutElastic'}
-					],
-					opacity: [
-						{value: 0, duration: 130, easing: 'easeInQuad'},
-						{value: 1, duration: 130, easing: 'easeOutQuad'}
-					],
-					color: [
-						{value: '#6fbb95', duration: 1, delay: 130, easing: 'easeOutQuad'}
-					]
-				}
-			},
-			out: {
-				base: {
-					duration: 200,
-					delay: 100,
-					easing: 'easeInQuad',
-					rotate: -35,
-					opacity: 0
-				},
-				content: {
-					duration: 200,
-					easing: 'easeInQuad',
-					translateX: -30,
-					rotate: -10,
-					opacity: 0
-				},
-				trigger: {
-					translateX: [
-						{value: '-30%', duration: 200, easing: 'easeInQuad'},
-						{value: ['30%','0%'], duration: 200, easing: 'easeOutQuad'}
-					],
-					opacity: [
-						{value: 0, duration: 200, easing: 'easeInQuad'},
-						{value: 1, duration: 200, easing: 'easeOutQuad'}
-					],
-					color: [
-						{value: '#666', duration: 1, delay: 200, easing: 'easeOutQuad'}
-					]
-				}
-			}
-		},
+		
+		
+		
+
 		uldor: {
 			in: {
 				base: {
@@ -177,7 +113,7 @@
 						{value: 1, duration: 100, easing: 'easeOutQuad'}
 					],
 					color: {
-						value: '#6fbb95', 
+						value: 'red', 
 						duration: 1, 
 						delay: 100, 
 						easing: 'easeOutQuad'

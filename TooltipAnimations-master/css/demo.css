@@ -15,17 +15,8 @@ h1{
 	display:flex;
 	justify-content:center;
 }
-img{
 
-	width:100vw;
-}
 
 main{
 	margin-top:8em;
-}
-section{
-	display:flex;
-	justify-content: center;
-	padding:2em;
-
 }

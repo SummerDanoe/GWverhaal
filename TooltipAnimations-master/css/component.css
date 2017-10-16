@@ -24,6 +24,7 @@ section{
 .tooltip__trigger {
 	cursor: pointer;
 	position: relative;
+	text-align: center;
 }
 
 .tooltip__trigger-text {
